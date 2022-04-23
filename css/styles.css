@@ -412,7 +412,9 @@ address {
 
 .icon {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
   list-style: none;
   outline: 1px solid red;
 }
@@ -503,10 +505,6 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-/* .adress:hover,
-.adress:focus {
-  color: var(--acent-color);
-} */
 
 .mail-footer {
   color: rgba(255, 255, 255, 0.6);
